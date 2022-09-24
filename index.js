@@ -3,28 +3,17 @@ console.log("Hello world");
 /* let onePlanetName = "Zemly"; Переменая 
 console.log(onePlanetName);
  */
-let newTime = "12:16";
-console.log(newTime);
-
-let amountChater = "19";
-console.log(amountChater);
-
-let lastName = "ILdar";
-console.log(lastName);
-
-let SarName = "Musin";
-console.log(SarName);
-
-let patronymicNew = "Ilshatovic";
-console.log(patronymicNew);
-
-const UserData = "Имя пользователя ${name}, возраст {age}";
+const UserData = "я пользователя ${name}, возраст {age}";
 console.log(UserData)
 
 const UserDatanew = "Имя пользователь ${name}, возраст {age}";
 console.log(UserDatanew)
 
-
+const newName = "ildar"
+console.log(newName);
+  
+const newYears = "32"
+console.log (newYears);
 /* Boolean
 const isUser = false Ложь
 const isVisible = true Истина */
