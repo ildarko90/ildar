@@ -1,12 +1,15 @@
 console.log("Hello world");
 
+let userName = "Ildar"
+console.log(userName);
+
 /* let onePlanetName = "Zemly"; Переменая 
 console.log(onePlanetName);
  */
-const UserData = "я пользователя ${name}, возраст {age}";
+const UserData = 'я пользователя ${name}, возраст {age};';
 console.log(UserData)
 
-const UserDatanew = "Имя пользователь ${name}, возраст {age}";
+const UserDatanew = 'Имя пользователь ${name}, возраст {age};';
 console.log(UserDatanew)
 
 const newName = "ildar"
@@ -23,7 +26,7 @@ console.log(townName)
 townName = "Moscow"
 console.log(townName);
 
-// const UserData ={
+// const UserData = {
 // name: "Ildar",
 // age: "32",
 // };
@@ -31,6 +34,6 @@ console.log(townName);
 
 console.log(typeof UserData.age);
 
-
+console.log(UserData)
 
 
