@@ -6,11 +6,13 @@ console.log(userName);
 /* let onePlanetName = "Zemly"; Переменая 
 console.log(onePlanetName);
  */
-const UserData = 'я пользователя ${name}, возраст {age};';
-console.log(UserData)
 
-const UserDatanew = 'Имя пользователь ${name}, возраст {age};';
-console.log(UserDatanew)
+
+const UserData = `Пользователь ${user}, возраст ${age}`
+console.log(UserData);
+
+const UserDatanew = `Имя пользователя ${user}, возраст ${age}`
+console.log(UserDatanew);
 
 const newName = "ildar"
 console.log(newName);
